@@ -1,0 +1,178 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    height: 800px;
+}
+
+#work {
+   height: 1450px; 
+}
+
+#about {
+    height: 650px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+} 
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+
+header h1 {
+    color: #bdbf09;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 350px;
+    text-align: center;
+}
+
+header p {
+    color: #095156;
+    font-size: 48px;
+    padding: 0 200px;
+    text-align: center;
+}
+
+/***** WORK *****/
+
+#work {
+    color: #095156;
+}
+
+#work .full-width {
+    padding: 10px 0;
+}
+
+#work h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#work h3, a {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+#work p {
+    font-size: 24px;
+    padding: 0;
+}
+
+.project {
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background: #087e8b;
+    color: #ffffff;
+}
+
+#about .full-width {
+    padding: 10px 0;
+}
+
+#about h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#about p {
+    font-size: 20px;
+    padding: 0;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background: #095156;
+    color: #ffffff;
+}
+
+#contact .full-width {
+    padding: 10px 0;
+}
+
+#contact h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 24px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    background: #095156;
+    padding: 0 55px;
+}
+
+#contact h4 {
+    clear: both;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 60px;
+    padding-bottom: 0;
+    text-align: center;
+}

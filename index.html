@@ -2,11 +2,14 @@
 <html>
     <head>
         <title>Karen Ferguson | Portfolio</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:400,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!---HEADER-->
 
-        <header>
+        <header id="header">
             <div class="full-width">
                 <h1>Hi There! I'm Karen Ferguson.</h1>
                 <p>I am a web developer located in Charlotte, North Carolina.</p>
@@ -15,41 +18,44 @@
 
         <!--WORK-->
 
-        <section id="jubilee">
+        <section id="work">
             <div class="full-width">
                 <h2>My Portfolio</h2>
-                <div class="half-width">
-                    <img src="img/jubilee-thumbnail.png" alt="jubilee austen website" />                  
+            <section class="project">
+                <div class="full-width">
+                    <div class="half-width">
+                        <img src="img/jubilee-thumbnail.png" alt="jubilee austen website" />                  
+                    </div>
+                    <div class="half-width">
+                        <h3><a href="https://kaferg.github.io/jubilee-austen/" target="_blank">Jubilee Austen Website</a></h3>
+                        <p>This is the first one-page website I created using HTML5 and CSS for a Skillcrush course.  I was given a photoshop design comp and some assistance with structure and code.</p>
+                    </div>
                 </div>
-                <div class="half-width">
-                    <h3><a href="https://kaferg.github.io/jubilee-austen/" target="_blank">Jubilee Austen Website</a></h3>
-                    <p>This is the first one-page website I created using HTML5 and CSS for a Skillcrush course.  I was given a photoshop design comp and some assistance with structure and code.</p>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="rogue">
-            <div class="full-width">
-                <div class="half-width">
-                    <img src="img/rogue-pickings-thumbnail.png" alt="rogue pickings website" />
+            <section class="project">
+                <div class="full-width">
+                    <div class="half-width">
+                        <img src="img/rogue-pickings-thumbnail.png" alt="rogue pickings website" />
+                    </div>
+                    <div class="half-width">
+                        <h3><a href="https://kaferg.github.io/rogue-pickings/" target="_blank">Rogue Pickings Website</a></h3>
+                        <p>This is the second one-page website I created using HTML5 and CSS for a Skillcrush course.  Once again, I was given a photshop design comp, but this time I had to come up with the stucture and coding on my own to try to match the PSD.</p>
+                    </div>
                 </div>
-                <div class="half-width">
-                    <h3><a href="https://kaferg.github.io/rogue-pickings/" target="_blank">Rogue Pickings Website</a></h3>
-                    <p>This is the second one-page website I created using HTML5 and CSS for a Skillcrush course.  Once again, I was given a photshop design comp, but this time I had to come up with the stucture and coding on my own to try to match the PSD.</p>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="holstee">
-            <div class="full-width">
-                <div class="half-width">
-                    <img src="img/holstee-thumbnail.png" alt="holstee manifesto image" />
+            <section class="project">
+                <div class="full-width">
+                    <div class="half-width">
+                        <img src="img/holstee-thumbnail.png" alt="holstee manifesto image" />
+                    </div>
+                    <div class="half-width">
+                        <h3>Holstee Manifesto</h3>
+                        <p>This is an exercise I completed for a Skillcrush course before I even created by first website. I used HTML5 and CSS to try to replicate an image I was given.</p>
+                    </div>
                 </div>
-                <div class="half-width">
-                    <h3>Holstee Manifesto</h3>
-                    <p>This is an exercise I completed for a Skillcrush course before I even created by first website. I used HTML5 and CSS to try to replicate an image I was given.</p>
-                </div>
-            </div>
+            </section>
         </section>
 
         <!--ABOUT-->
@@ -88,7 +94,8 @@
                     <h3>Meet me</h3>
                     <p>Charlotte, NC<br>Let's meet for a cup of coffee.</p>
                 </div>
-                <p>Copyright 2019 | Karen Ferguson</p>
+            <div class="full-width">
+                <h4>Copyright 2019 | Karen Ferguson</h4>
             </div>
         </footer>
     </body>
